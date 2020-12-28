@@ -1,0 +1,5 @@
+.idea
+*.iml
+target
+*.rb
+functional_spec
