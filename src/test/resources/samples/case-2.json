@@ -1,0 +1,20 @@
+[
+  {
+    "band" : "Backstreet Boy",
+    "start" : "2020-12-30T03:01:00Z",
+    "finish" : "2020-12-30T03:28:00Z",
+    "priority" : 3
+  },
+  {
+    "band" : "NSync",
+    "start" : "2020-12-30T03:00:00Z",
+    "finish" : "2020-12-30T03:35:00Z",
+    "priority" : 2
+  },
+  {
+    "band" : "Boy Zone",
+    "start" : "2020-12-30T03:00:00Z",
+    "finish" : "2020-12-30T03:45:00Z",
+    "priority" : 1
+  }
+]

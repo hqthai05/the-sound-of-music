@@ -1,0 +1,20 @@
+[
+  {
+    "band" : "NSync",
+    "start" : "2020-12-30T04:00:00Z",
+    "finish" : "2020-12-30T05:50:00Z",
+    "priority" : 2
+  },
+  {
+    "band" : "Boy Zone",
+    "start" : "2020-12-30T04:15:00Z",
+    "finish" : "2020-12-30T05:35:00Z",
+    "priority" : 3
+  },
+  {
+    "band" : "M2M",
+    "start" : "2020-12-30T04:30:00Z",
+    "finish" : "2020-12-30T06:00:00Z",
+    "priority" : 1
+  }
+]

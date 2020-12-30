@@ -1,0 +1,20 @@
+[
+  {
+    "band" : "M2M",
+    "start" : "2020-12-30T05:01:15Z",
+    "finish" : "2020-12-30T05:28:30Z",
+    "priority" : 3
+  },
+  {
+    "band" : "West Life",
+    "start" : "2020-12-30T05:00:00Z",
+    "finish" : "2020-12-30T05:45:00Z",
+    "priority" : 1
+  },
+  {
+    "band" : "Whitney Houston",
+    "start" : "2020-12-30T05:00:00Z",
+    "finish" : "2020-12-30T05:35:00Z",
+    "priority" : 2
+  }
+]

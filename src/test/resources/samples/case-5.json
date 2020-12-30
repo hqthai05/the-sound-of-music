@@ -1,0 +1,32 @@
+[
+  {
+    "band" : "Michael Jackson",
+    "start" : "2020-12-30T07:05:00Z",
+    "finish" : "2020-12-30T07:25:00Z",
+    "priority" : 5
+  },
+  {
+    "band" : "M2M",
+    "start" : "2020-12-30T07:10:00Z",
+    "finish" : "2020-12-30T07:46:00Z",
+    "priority" : 1
+  },
+  {
+    "band" : "Backstreet Boy",
+    "start" : "2020-12-30T07:00:00Z",
+    "finish" : "2020-12-30T07:35:00Z",
+    "priority" : 4
+  },
+  {
+    "band" : "Whitney Houston",
+    "start" : "2020-12-30T08:10:00Z",
+    "finish" : "2020-12-30T08:30:00Z",
+    "priority" : 2
+  },
+  {
+    "band" : "West Life",
+    "start" : "2020-12-30T07:00:00Z",
+    "finish" : "2020-12-30T07:45:00Z",
+    "priority" : 3
+  }
+]
