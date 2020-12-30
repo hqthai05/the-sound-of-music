@@ -11,9 +11,12 @@ import java.io.IOException;
 import java.io.Reader;
 import java.io.Writer;
 import java.nio.file.Files;
+import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 /**
  * All common functions were defined in this class, it's easy to handle
@@ -21,6 +24,24 @@ import java.util.List;
 public class CommonFunctions {
 
     private static Gson gson = new GsonBuilder().setPrettyPrinting().create();
+
+    public static List<String> listFilesUnderDirectory(String dir) {
+        List<String> result = new ArrayList<>();
+        try (Stream<Path> walk = Files.walk(Paths.get(dir.replaceAll("/", "\\\\")))) {
+            result = walk.filter(Files::isRegularFile)
+                    .map(x -> x.toString()).collect(Collectors.toList());
+        } catch (IOException e) {
+            System.out.println("=======================================================");
+            System.out.println("Invalid path, please make sure the path is correct.");
+            System.out.println("More detail:");
+            e.printStackTrace();
+            System.out.println("=======================================================");
+        }
+        if(result.isEmpty()) {
+            System.out.println("There is no existing file in given path. Please try again.");
+        }
+        return result;
+    }
 
     public static List<Performance> readFile(String fileName) {
         List<Performance> performances = new ArrayList<>();

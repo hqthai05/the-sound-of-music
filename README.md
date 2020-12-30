@@ -41,8 +41,10 @@ Extract the zip file and open commandline from this point, type following bellow
 build.bat
 ```
 **Run project**
+
+Only 1 parameter is the path to contain files
 ```bash
-run.bat overlapping.json
+run.bat src\main\resources\samples
 ```
 
 After run successfully, new file name "overlapping.optimal.json" was created. It will contain the optimal list of performances. 

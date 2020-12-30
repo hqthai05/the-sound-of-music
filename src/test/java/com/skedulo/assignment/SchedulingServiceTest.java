@@ -6,7 +6,6 @@ import com.skedulo.assignment.model.RawPerformance;
 import com.skedulo.assignment.service.SchedulingService;
 import com.skedulo.assignment.util.CommonFunctions;
 import org.junit.Assert;
-import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
@@ -29,7 +28,6 @@ public class SchedulingServiceTest {
             "case-5"
     ));
 
-
     @InjectMocks
     private SchedulingService schedulingService;
 
@@ -45,7 +43,5 @@ public class SchedulingServiceTest {
             Assert.assertEquals(schedulingService.getResult(),actualPerformances);
             schedulingService.clearResult();
         }
-
-
     }
 }
