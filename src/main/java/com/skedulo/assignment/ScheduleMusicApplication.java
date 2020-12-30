@@ -21,6 +21,11 @@ public class ScheduleMusicApplication {
                 SchedulingService service = new SchedulingService();
                 service.run(performances);
                 CommonFunctions.writeFile(args[0], service.getResult());
+
+                System.out.println("===========================================================================");
+                System.out.println("Created successfully file which contain list of optimal performances.\n" +
+                        "Please check the file " + args[0] + ".optimal.json inside current working directory.");
+                System.out.println("===========================================================================");
                 break;
             default:
                 System.out.println("Unsupported function");
