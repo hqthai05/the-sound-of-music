@@ -31,7 +31,9 @@ public class ScheduleMusicApplication {
                 }
                 break;
             default:
-                System.out.println("Unsupported function");
+                System.out.println("\n==================================================================");
+                System.out.println("Unsupported function. Please make sure have parameter to valid path");
+                System.out.println("==================================================================");
                 break;
         }
     }
