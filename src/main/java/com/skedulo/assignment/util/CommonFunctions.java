@@ -38,7 +38,7 @@ public class CommonFunctions {
             System.out.println("=======================================================");
         }
         if(result.isEmpty()) {
-            System.out.println("There is no existing file in given path. Please try again.");
+            System.out.println("There are no existing files in given path. Please try again.");
         }
         return result;
     }
